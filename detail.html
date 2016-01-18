@@ -44,12 +44,26 @@
 <!-- 固定定位元素 -->
 <!-- ================================================================================ -->
 <main id="main" class="scroll-container">
-
-
 <!-- ================================================================================ -->
 <!-- 详情页面头像栏 -->
 <!-- ================================================================================ -->
-<a id="avatar" href="usercenter.html"><img src="resources/bitmaps/common/avatar.jpg" /></a>
+<!--<a id="avatar" href="usercenter.html"><img src="resources/bitmaps/common/avatar.jpg" /></a>-->
+
+
+<!-- ================================================================================ -->
+<!-- 菜单 -->
+<!-- ================================================================================ -->
+<!--<a id="menu" href="javascript:void(0);"><i class="menu-icon"></i></a>-->
+
+
+<!-- ================================================================================ -->
+<!-- 推荐栏 -->
+<!-- ================================================================================ -->
+<div id="recommend"><div class="recommend">
+    <div class="recomd-header"><img class="recomd-avatar" src="resources/bitmaps/common/avatar.jpg" width="36" height="36" /></div>
+    <div class="recomd-content">BIYI为你推荐“VJF商城”，临近圣诞还有各式精彩活动不要错过哟临近圣诞还有各式精彩活动不要错过哟临近圣诞还有各式精彩活动不要错过哟～</div>
+    <div class="recomd-cancel"><i class="weui_icon_cancel"></i></div>
+</div></div>
 
 
 <content id="content">
@@ -122,8 +136,8 @@
 <!-- 商品选项 -->
 <!-- ================================================================================ -->
 <!--<div class="weui_cells weui_cells_access goods-options">
-    <div id="optionTrigger" class="weui_cell">
-        <div class="weui_cell_bd weui_cell_primary">已选</div>
+    <div id="optionTrigger" class="weui_cell weui_cells_access goods-options">
+        <div class="weui_cell_bd weui_cell_primary">选择分类</div>
         <div class="weui_cell_ft"><output id="formOptionOutput">款式、颜色</output></div>
     </div>
 </div>-->
@@ -133,7 +147,7 @@
 <!-- 购买按钮 -->
 <!-- ================================================================================ -->
 <div class="goods-controls weui_btn_group">
-    <a class="weui_btn weui_btn_primary" href="order.html">立即购买</a>
+    <a class="weui_btn weui_btn_primary" href="order.html">加入购物车</a>
     <a class="weui_btn weui_btn_default share-button" href="javascript:void(0);">分享</a>
 </div>
 
@@ -170,12 +184,21 @@
 
 </content>
 </main>
+
+
+<!-- ================================================================================ -->
+<!-- 主页面底部工具条 -->
+<!-- ================================================================================ -->
+<!--<div id="mainToolbar" class="toolbar toolbar-showing">
+    <a class="weui_btn weui_btn_default share-button" href="javascript:void(0);">分享</a>
+    <a class="weui_btn weui_btn_primary" href="order.html">加入购物车</a>
+</div>-->
+
+
 <!-- ================================================================================ -->
 <!-- 详情页面 -->
 <!-- ================================================================================ -->
-<aside id="side" class="scroll-container">
-
-
+<div id="sideWrapper">
 <!-- ================================================================================ -->
 <!-- 详情页面固定头部 -->
 <!-- ================================================================================ -->
@@ -186,11 +209,16 @@
 </nav></header>
 
 
+<aside id="side" class="scroll-container">
 <content id="sideContent">
 <!-- ================================================================================ -->
 <!-- 返回简介页面提示 -->
 <!-- ================================================================================ -->
-<div id="detailBackPrompts"><div class="text">释放手指，返回商品简介</div></div>
+<div id="detailBackPrompts"><div class="wrapper">
+    <img class="allow" src="resources/bitmaps/common/allow.png" width="36" height="24" />
+    <span class="text">释放手指，返回商品简介</span>
+</div>
+</div>
 
 
 <!-- ================================================================================ -->
@@ -200,18 +228,16 @@
 <p><img src="http://img.sibu.cn/mall_new/upload/des/1442218234669550.jpg" style="" title="1442218234669550.jpg"/></p><p><img src="http://img.sibu.cn/mall_new/upload/des/1442218234799622.jpg" style="" title="1442218234799622.jpg"/></p><p><img src="http://img.sibu.cn/mall_new/upload/des/1442218234850608.jpg" style="" title="1442218234850608.jpg"/></p><p><img src="http://img.sibu.cn/mall_new/upload/des/1442218234479567.jpg" style="" title="1442218234479567.jpg"/></p><p><img src="http://img.sibu.cn/mall_new/upload/des/1442218234872490.jpg" style="" title="1442218234872490.jpg"/></p><p><img src="http://img.sibu.cn/mall_new/upload/des/1442218234786821.jpg" style="" title="1442218234786821.jpg"/></p><p><img src="http://img.sibu.cn/mall_new/upload/des/1442218234967636.jpg" style="" title="1442218234967636.jpg"/></p><p><img src="http://img.sibu.cn/mall_new/upload/des/1442218234843115.jpg" style="" title="1442218234843115.jpg"/></p><p><img src="http://img.sibu.cn/mall_new/upload/des/1442218234556735.jpg" style="" title="1442218234556735.jpg"/></p><p><img src="http://img.sibu.cn/mall_new/upload/des/1442218234918292.jpg" style="" title="1442218234918292.jpg"/></p><p><img src="http://img.sibu.cn/mall_new/upload/des/1442218235889701.jpg" style="" title="1442218235889701.jpg"/></p><p><img src="http://img.sibu.cn/mall_new/upload/des/1442218235824362.jpg" style="" title="1442218235824362.jpg"/></p><p><img src="http://img.sibu.cn/mall_new/upload/des/1442218235453511.jpg" style="" title="1442218235453511.jpg"/></p><p><img src="http://img.sibu.cn/mall_new/upload/des/1442218235633069.jpg" style="" title="1442218235633069.jpg"/></p><p><img src="http://img.sibu.cn/mall_new/upload/des/1442218235421874.jpg" style="" title="1442218235421874.jpg"/></p><p><img src="http://img.sibu.cn/mall_new/upload/des/1442218235245943.jpg" style="" title="1442218235245943.jpg"/></p><p><img src="http://img.sibu.cn/mall_new/upload/des/1442218235537253.jpg" style="" title="1442218235537253.jpg"/></p>
 </article>
 </content>
-
-
+</aside>
 <!-- ================================================================================ -->
 <!-- 底部工具栏 -->
 <!-- ================================================================================ -->
 <div id="toolbar" class="toolbar">
     <a class="weui_btn weui_btn_default share-button" href="javascript:void(0);">分享</a>
-    <a class="weui_btn weui_btn_primary" href="order.html">立即购买</a>
+    <a class="weui_btn weui_btn_primary" href="order.html">加入购物车</a>
 </div>
-
-
-</aside></div><!--PAGE END-->
+</div>
+</div><!--PAGE END-->
 <!-- ================================================================================ -->
 <!-- 商品属性 -->
 <!-- ================================================================================ -->
@@ -226,24 +252,30 @@
             <p><span class="option-goods-price">￥<span>280.00</span></span><span class="option-goods-origin">￥<span>1800.00</span></span></p>
         </div>
     </div></div>
-    <!-- 选项 -->
+    <!-- 商品选项 -->
     <div class="option-chooser">
-        <div class="option-chooser-title">种类</div>
-        <div class="option-chooser-lists">
-            <label class="radio-button"><input name="m" type="radio" value="1" /><span class="radio-label">土豪金土豪金</span></label>
-            <label class="radio-button"><input name="m" type="radio" value="2" /><span class="radio-label">X</span></label>
-            <label class="radio-button"><input name="m" type="radio" value="3" /><span class="radio-label">大XL</span></label>
-            <label class="radio-button"><input name="m" type="radio" value="4" disabled="disabled" /><span class="radio-label">XXL</span></label>
+        <div class="option-chooser-item">
+            <div class="option-item-name">颜色</div>
+            <div class="option-item-content">
+                <label class="radio-button"><input name="m" type="radio" value="1" /><span class="radio-label">土豪金</span></label>
+                <label class="radio-button"><input name="m" type="radio" value="1" /><span class="radio-label">土豪金土豪金</span></label>
+            </div>
         </div>
-    </div>
-    <!-- 数量 -->
-    <div class="option-chooser">
-        <div class="option-chooser-title">数量</div>
-        <div class="option-chooser-lists">
-            <div class="counter">
-                <a class="counter-button counter-plus" href="javascript:void(0);">+</a>
-                <input class="weui_input counter-input" type="number" value="1" min="0" max="9999" />
-                <a class="counter-button counter-minus" href="javascript:void(0);" >-</a>
+        <div class="option-chooser-item">
+            <div class="option-item-name">分类</div>
+            <div class="option-item-content">
+                <label class="radio-button"><input name="m1" type="radio" value="1" /><span class="radio-label">S</span></label>
+                <label class="radio-button"><input name="m1" type="radio" value="1" /><span class="radio-label">L</span></label>
+                <label class="radio-button"><input name="m1" type="radio" value="1" /><span class="radio-label">XL</span></label>
+                <label class="radio-button"><input name="m1" type="radio" value="1" /><span class="radio-label">XXL</span></label>
+            </div>
+        </div>
+        <div class="option-chooser-item">
+            <div class="option-item-name">数量</div>
+            <div class="option-item-content">
+                <a class="counter counter-minus" href="javascript:void(0);" ><span class="inner">-</span></a>
+                <s class="counter counter-input"><input class="inner weui_input" type="number" value="0" /></s>
+                <a class="counter counter-plus" href="javascript:void(0);"><span class="inner">+</span></a>
             </div>
         </div>
     </div>
@@ -279,6 +311,28 @@
 </content>
 </aside></div>
 
+
+<!-- ================================================================================ -->
+<!-- 页面侧边导航栏 -->
+<!-- ================================================================================ -->
+<div id="sideNav" class="side-nav">
+    <a id="showOptsOverlay" class="side-nav-button" href="javascript:void(0);"><i class="ui-icon ui-x24-icon ui-sideopts-icon"></i></a>
+    <a id="sideGotoCart" class="side-nav-button circle-counter" href="javascript:void(0);" data-label="20+"><i class="ui-icon ui-x24-icon ui-sidecart-icon"></i></a>
+    <a id="sideBackTop" class="side-nav-button" href="javascript:void(0);"><i class="ui-icon ui-x24-icon ui-sidetop-icon"></i></a>
+</div>
+<!-- ================================================================================ -->
+<!-- 更多按钮 -->
+<!-- ================================================================================ -->
+<div id="optsOverlay" class="overlay no-mask">
+<div class="overlay-mask"></div>
+<div class="overlay-content dialog-content grid-button-group"><div class="grid-wrapper">
+    <a class="grid-button" href="javascript:void(0);"><i class="ui-icon ui-index-icon"></i><span>商城首页</span></a>
+    <a class="grid-button" href="javascript:void(0);"><i class="ui-icon ui-cart-icon"></i><span>购物车</span></a>
+    <a class="grid-button" href="javascript:void(0);"><i class="ui-icon ui-partner-icon"></i><span>合伙人</span></a>
+    <a class="grid-button" href="javascript:void(0);"><i class="ui-icon ui-usercenter-icon"></i><span>个人中心</span></a>
+    <a class="grid-button" href="javascript:void(0);"><i class="ui-icon ui-cart-icon"></i><span>订单管理</span></a>
+</div></div>
+</div>
 
 </div><!--STAGE END-->
 <!-- ================================================================================ -->
