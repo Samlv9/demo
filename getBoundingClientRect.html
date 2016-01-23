@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <style type="text/css">
+        body { margin: 0; }
+
+        #rect {
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            left: 0px;
+            top: 0px;
+            background: #090;
+        }
+
+        div {
+            word-break: break-all;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="rect"></div>
+    <script type="text/javascript">
+        document.body.addEventListener("click", function( evt ) {
+            var r = document.querySelector("#rect").getBoundingClientRect();
+
+            alert("{ left:" + r.left + ", top:" + r.top + "}");
+        });
+    </script>
+
+
+    <div style="margin:100px">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</div>
+    <div style="margin:100px">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</div>
+    <div style="margin:100px">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</div>
+    <div style="margin:100px">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</div>
+    <div style="margin:100px">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</div>
+    <div style="margin:100px">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</div>
+    <div style="margin:100px">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</div>
+    <div style="margin:100px">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</div>
+    <div style="margin:100px">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</div>
+
+
+
+
+
+
+</body>
+</html>
