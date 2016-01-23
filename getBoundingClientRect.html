@@ -16,6 +16,15 @@
             background: #090;
         }
 
+        #dot {
+            position: relative;
+            left: 10px;
+            top: 10px;
+            width: 10px;
+            height: 10px;
+            background: #900;
+        }
+
         div {
             word-break: break-all;
         }
@@ -23,10 +32,14 @@
     </style>
 </head>
 <body>
-    <div id="rect"></div>
+    <div id="rect">
+        <div id="dot"></div>
+
+
+    </div>
     <script type="text/javascript">
         document.body.addEventListener("click", function( evt ) {
-            var r = document.querySelector("#rect").getBoundingClientRect();
+            var r = document.querySelector("#dot").getBoundingClientRect();
 
             alert("{ left:" + r.left + ", top:" + r.top + "}");
         });
