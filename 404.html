@@ -35,51 +35,12 @@
     document.createElement("content");
 ///]]></script>
 <!-- 运行环境设置 -->
-<script type="text/javascript">
-    document.write("" + navigator.userAgent);
-    
-</script>
+
 <!--<script type="text/javascript" src="http://192.168.0.185:8888/remote.js?89076A5C-4168-4CE6-A956-14D660F0F3B3"></script>--></head>
-<body><div id="stage">
-<main id="main" class="scroll-container">
-<!-- ================================================================================ -->
-<!-- 固定定位元素 -->
-<!-- ================================================================================ -->
-<content id="content">
-<!-- ================================================================================ -->
-<!-- 统一头部 -->
-<!-- ================================================================================ -->
-
-
-<img id="pageNotFound" src="resources/bitmaps/common/404.png" />
-
-
-
-
-<!-- ================================================================================ -->
-<!-- 统一底部 -->
-<!-- ================================================================================ -->
-</content>
-</main>
-
-
-<!-- ================================================================================ -->
-<!-- 返回首页 -->
-<!-- ================================================================================ -->
-<div class="weui_extra_area"><a href="detail.html">返回首页</a></div>
-
-
-</div><!--STAGE END-->
-<!-- ================================================================================ -->
-<!-- ScriptManager -->
-<!-- ================================================================================ -->
-<!-- ZeptoJs -->
-<script type="text/javascript" src="resources/libraries/zeptojs/zepto.js"></script>
-<!-- ZeptoJs Event Module -->
-<script type="text/javascript" src="resources/libraries/zeptojs/event.js"></script>
-<!-- ================================================================================ -->
-<!-- 页面入口点 -->
-<!-- ================================================================================ -->
-<script type="text/javascript" src="resources/scripts/404.js"></script>
-</body>
+<body><script type="text/javascript">
+    var textarea = document.createElement("textarea");
+    textarea.value = "" + navigator.userAgent;
+    document.body.appendChild(textarea);
+    
+</script></body>
 </html>
